@@ -53,9 +53,9 @@ class Axl
         // pre-register provider packages if they are loaded from composer
         // instances are only created when used so there's no overhead here in loading
         $providers = [
+            'AxlCore\Providers\Gemini\GeminiProvider',
             'AxlCore\Providers\OpenAi\OpenAiProvider',
             'AxlCore\Providers\Anthropic\AnthropicProvider',
-//            'AxlCore\Providers\Google\GeminiProvider',
         ];
 
         foreach($providers as $provider) {
@@ -63,11 +63,6 @@ class Axl
                 $this->provider_registry->register($provider, fn() => new $provider());
             }
         }
-// remove once packages are separated
-//        $this->provider_registry->register(GeminiProvider::class, fn() => new GeminiProvider());
-//        $this->provider_registry->register(OpenAiProvider::class, fn() => new OpenAiProvider());
-//        $this->provider_registry->register(LlstudioProvider::class, fn() => new LlstudioProvider());
-//        $this->provider_registry->register(AnthropicProvider::class, fn() => new AnthropicProvider());
     }
 
     public static function build(string $provider) : Axl
