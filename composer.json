@@ -3,7 +3,7 @@
   "description": "PHP AI Platform Bridge",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0-dev",
+  "version": "1.0.0-alpha.0",
   "keywords": [
     "ai bridge",
     "ai platform bridge",
@@ -15,7 +15,7 @@
   ],
   "authors": [
     {
-      "name": "Lamonte Harris"
+      "name": "Lamonte H."
     }
   ],
   "require": {
