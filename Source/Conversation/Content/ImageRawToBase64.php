@@ -12,7 +12,6 @@ class ImageRawToBase64 extends Content
         if(empty($this->data)) {
             throw new \Exception("The data is empty");
         }
-
-        return sprintf('%s;base64,%s', $this->metadata('mimetype'), base64_encode($this->data));
+        return base64_encode($this->data);
     }
 }
