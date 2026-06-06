@@ -1,15 +1,7 @@
 <?php
-
 namespace AxlCore\Tests\Unit;
 
-use AxlCore\Axl;
-use AxlCore\Conversation\Content\ImageUrl;
-use AxlCore\Conversation\Content\Text;
-use AxlCore\Conversation\Contexts\TextContext;
-use AxlCore\Conversation\Messages\Messages;
-use AxlCore\Conversation\Messages\MessagesContainer;
 use AxlCore\OptionsResolver;
-use AxlCore\Providers\OpenAi\OpenAiProvider;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
