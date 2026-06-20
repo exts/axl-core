@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b653d76b02c8df0ed186c712199d2be6",
+    "content-hash": "acaa037d0275ac6502d4a03887603890",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -940,6 +940,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "exts/axl-gemini",
+            "version": "1.0.0-alpha.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/exts/axl-gemini.git",
+                "reference": "d43bb727330e001a4798ec28c27f5c3f94e63838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/exts/axl-gemini/zipball/d43bb727330e001a4798ec28c27f5c3f94e63838",
+                "reference": "d43bb727330e001a4798ec28c27f5c3f94e63838",
+                "shasum": ""
+            },
+            "require": {
+                "exts/axl-core": "^1.0.0-alpha.0",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0",
+                "symfony/dotenv": "v7.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AxlCore\\": "Source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Lamonte H."
+                }
+            ],
+            "description": "axl-gemini",
+            "keywords": [
+                "ai bridge",
+                "ai platform bridge",
+                "exts ai",
+                "exts axl",
+                "exts axl core",
+                "exts axl core ai",
+                "exts axl core ai bridge"
+            ],
+            "support": {
+                "issues": "https://github.com/exts/axl-gemini/issues",
+                "source": "https://github.com/exts/axl-gemini/tree/1.0.0-alpha.1"
+            },
+            "time": "2026-03-15T08:57:00+00:00"
+        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.13.4",
@@ -2703,7 +2753,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "exts/axl-gemini": 15
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

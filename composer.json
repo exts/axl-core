@@ -27,7 +27,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^12.0",
-    "symfony/dotenv": "v7.4.0"
+    "symfony/dotenv": "v7.4.0",
+    "exts/axl-gemini": "^1.0.0-alpha.1"
   },
   "autoload": {
     "psr-4": {
