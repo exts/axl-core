@@ -2,7 +2,7 @@
   "name": "exts/axl-core",
   "description": "PHP AI Platform Bridge",
   "type": "library",
-  "version": "1.0.0-alpha.1-2",
+  "version": "1.0.0-alpha.1-3",
   "keywords": [
     "ai bridge",
     "ai platform bridge",
